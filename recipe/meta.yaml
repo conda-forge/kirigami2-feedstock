@@ -39,9 +39,9 @@ test:
 
 about:
   home: https://api.kde.org/frameworks/kirigami/html/index.html
-  license: LGPL-v2.1-or-later
+  license: LGPL-2.0-or-later
   license_family: GPL
-  license_file: LICENSE.LGPL-2
+  license_file: LICENSES/LGPL-2.0-or-later.txt
   summary: QtQuick components
   description: |
     Kirigami is a set of QtQuick components at the moment targeted for
