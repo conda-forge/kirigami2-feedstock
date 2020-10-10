@@ -3,11 +3,13 @@ About kirigami2
 
 Home: https://api.kde.org/frameworks/kirigami/html/index.html
 
-Package license: LGPL-v2.1-or-later
+Package license: LGPL-2.0-or-later
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/kirigami2-feedstock/blob/master/LICENSE.txt)
 
 Summary: QtQuick components
+
+Development: https://cgit.kde.org/kirigami.git/tree
 
 Kirigami is a set of QtQuick components at the moment targeted for
 mobile use (in the future desktop as well) targeting both Plasma Mobile
@@ -32,10 +34,10 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64</td>
+              <td>linux_64_c_compiler_version7cxx_compiler_version7</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=8514&branchName=master">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/kirigami2-feedstock?branchName=master&jobName=linux&configuration=linux_64_" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/kirigami2-feedstock?branchName=master&jobName=linux&configuration=linux_64_c_compiler_version7cxx_compiler_version7" alt="variant">
                 </a>
               </td>
             </tr>
