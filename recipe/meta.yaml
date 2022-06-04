@@ -11,7 +11,7 @@ source:
   sha256: 90806125143807b74ee7f2fc74cd781d99b4e69ce5f15dcc28e1923f7a34a80a
 
 build:
-  number: 0
+  number: 1
   skip: true  # [not linux]
   run_exports:
     - {{ pin_subpackage('kirigami2', max_pin='x.x') }}
@@ -31,7 +31,7 @@ requirements:
   host:
     - xorg-libxfixes  # [linux]
     - xorg-libxext
-    - qt
+    - qt-main
 
 test:
   commands:
