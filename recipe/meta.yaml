@@ -1,5 +1,5 @@
 {% set name = "kirigami2" %}
-{% set version = "5.76.0" %}
+{% set version = "5.77.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kirigami2-{{ version }}.tar.xz
-  sha256: 90806125143807b74ee7f2fc74cd781d99b4e69ce5f15dcc28e1923f7a34a80a
+  sha256: aa4941f63e903ffdb029621739595c67acf02f16a2bca3657693c1fd5e503d96
 
 build:
   number: 0
